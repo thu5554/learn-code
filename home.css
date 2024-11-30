@@ -1,0 +1,24 @@
+p {
+  font-size: 24px; /* Kích thước chữ */
+  font-weight: normal; /* Chữ đậm */
+  background: linear-gradient(
+    to right,
+    red,
+    orange,
+    yellow,
+    green,
+    blue,
+    indigo,
+    violet
+  ); /* Gradient màu */
+  -webkit-background-clip: text; /* Chỉ áp dụng gradient lên text */
+  -webkit-text-fill-color: transparent; /* Làm cho nền của text trong suốt */
+}
+
+h1 {
+  color: #ff6347; /* Màu đỏ cam */
+  font-family: Arial, sans-serif; /* Kiểu chữ đơn giản */
+  font-size: 36px; /* Kích thước chữ */
+  text-align: left; /* Canh giữa */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Bóng mờ nhẹ */
+}

@@ -9,7 +9,7 @@ p {
     green,
     blue,
     indigo,
-    violet
+    violet red
   ); /* Gradient màu */
   -webkit-background-clip: text; /* Chỉ áp dụng gradient lên text */
   -webkit-text-fill-color: transparent; /* Làm cho nền của text trong suốt */

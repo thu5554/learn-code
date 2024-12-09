@@ -1,1 +1,4 @@
-light-themes
+.light-theme {
+  --background-primary: hsl(0, 0%, 100%);
+  --background-secondary: var(--background-secondary) : hsl(0, 0%, 97%);
+}

@@ -1,0 +1,47 @@
+body{
+    font-family: arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    background-color: #e9c4c4;
+}
+form{
+    max-width: 400px;
+    margin: 0 auto;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px ;
+    /* bo góc */
+    box-shadow: 0 4px 6px   rgba(36, 28, 28, 0.1);
+}
+form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+form input
+form select
+form button {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+form input [type="radio"],
+form input [type="checkbox"]{
+    width: auto;
+    margin-right: 10px;
+}
+form button {
+    background-color: #007bff;
+    color: #f4f4f4;
+    font-size: 16px;
+    cursor: pointer;
+    /* hover chuột tới button sẽ thành ngón tay */
+    border: none;
+    transition: background-color 1s
+}
+form button:hover {
+    background-color:#0056b3 ;
+}
+

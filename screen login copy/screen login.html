@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="./creen login.css" />
+  </head>
+  <body>
+    <h1>Form Đăng Kí</h1>
+    <form id="registrationForm">
+      <label for="name">Họ và tên: </label>
+      <input
+        type="text"
+        name="name"
+        id="name"
+        placeholder="Nhập họ và tên"
+        required
+      />
+      <label for="email">Email: </label>
+      <input
+        type="Email"
+        name="email"
+        id="email"
+        placeholder="Nhập Email"
+        required
+      />
+      <label for="password">Mật khẩu: </label>
+      <input
+        type="password"
+        id="password"
+        name="password"
+        placeholder="Vui lòng nhập mật khẩu"
+        required
+      />
+      <div class="form-group">
+        <label for="sex">Giới tính: </label>
+        <input type="radio" id="male" name="sex" value="male" />
+        <label for="male">Nam</label>
+        <input type="radio" id="female" name="sex" value="female" />
+        <label for="sex">Nữ</label>
+      </div>
+      <label for="country">Quốc gia: </label>
+      <select id="ountry" , name="country">
+        <option value="USA">Mĩ</option>
+        <option value="canada">Canada</option>
+        <option value="Japan">Nhật bản</option>
+        <option value="vietnam">Việt nam</option>
+      </select>
+      <button type="submit">Gửi</button>
+      <button type="reset">Xóa</button>
+      <script src="./javascrip.js"></script>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,98 @@
+body {
+  font-family: "Arial", sans-serif;
+  background: #f9f9f9;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+h1 {
+  position: absolute; /* Định vị tiêu đề theo góc trái trên */
+  top: 10px; /* Cách viền trên cùng 10px */
+  left: 10px; /* Cách viền bên trái 10px */
+  margin: 0; /* Loại bỏ margin mặc định */
+  font-size: 24px; /* Kích thước chữ */
+  color: #333; /* Màu chữ */
+  font-family: "Arial", sans-serif; /* Phông chữ */
+  font-weight: bold; /* Tô đậm chữ */
+  text-wrap: nowrap;
+}
+
+form {
+  max-width: 400px;
+  width: 100%;
+  padding: 20px;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  margin: 50px;
+  flex-wrap: nowrap;
+}
+.form-group {
+  display: flex;
+  align-items: center; /* Căn chỉnh theo chiều dọc */
+  flex-wrap: nowrap; /* Ngăn các phần tử xuống dòng */
+  gap: 10px; /* Khoảng cách giữa các phần tử */
+}
+
+.form-group label {
+  font-weight: bold;
+  margin-right: 10px; /* Khoảng cách giữa nhãn và nút */
+}
+
+.form-group input[type="radio"] {
+  margin-left: 5px; /* Khoảng cách giữa radio và nhãn bên phải */
+}
+form label {
+  display: block;
+  margin: 10px 0 5px;
+  font-weight: bold;
+  color: #555;
+  margin-right: 10px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+form input[type="radio"] {
+  margin-left: 5px;
+}
+form button {
+  width: calc(50% - 10px);
+  padding: 12px;
+  background: #007bff;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  margin: 10px 5px 0 0;
+  text-wrap: nowrap;
+}
+
+form button[type="reset"] {
+  background: #dc3545;
+}
+
+form button:hover {
+  background: #0056b3;
+}
+
+form button[type="reset"]:hover {
+  background: #b02a37;
+}
